@@ -4,4 +4,4 @@ grv = 0.3;
 walkSpeed = 4;
 
 
-sprint = 10;
+

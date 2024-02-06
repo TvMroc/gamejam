@@ -1,4 +1,4 @@
-*y_left = keyboard_check(vk_left);
+key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_jump = keyboard_check(vk_space);
 
@@ -42,15 +42,6 @@ if (place_meeting(x,y+vsp,wallObject))
 y = y + vsp;
 
 
-if key_sprint
-{
-	walkSpeed = sprint
-}
-else 
-{
-	sprint = walkSpeed
-}
-	
 	
 	
 	
