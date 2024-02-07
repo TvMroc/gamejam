@@ -17,8 +17,13 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"wall","order":1,"path":"sprites/wall/wall.yy",},
-    {"name":"wallObject","order":1,"path":"objects/wallObject/wallObject.yy",},
+    {"name":"oGun","order":2,"path":"objects/oGun/oGun.yy",},
+    {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
+    {"name":"Sprite5","order":17,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"sBullets","order":3,"path":"sprites/sBullets/sBullets.yy",},
     {"name":"TileSet1","order":16,"path":"tilesets/TileSet1/TileSet1.yy",},
+    {"name":"oBullet","order":3,"path":"objects/oBullet/oBullet.yy",},
+    {"name":"sGun","order":2,"path":"sprites/sGun/sGun.yy",},
   ],
 }
