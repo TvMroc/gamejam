@@ -4,18 +4,23 @@ key_jump = keyboard_check(vk_space);
 var run = 1;
 
 if (keyboard_check(vk_control)) {
-	run = 3.2;
+	run = 1.3;
 } else {
-	run = 1;	
+	run = 1;
 }
 var move = key_right - key_left;
 
 hsp = move * walkSpeed * run;
-
 vsp = vsp + grv;
 
+if (keyboard_check(ord("R"))) {
+	x = random_range(200, 900) y = random_range(400, 500)	
+}
 if (place_meeting(x,y+1,wallObject)) && (key_jump) {
-	vsp = -6;
+	vsp = -5*run;
+}
+if  (place_meeting(x,y,ladderObject)) && (key_jump) {
+	vsp = -2*run;	
 }
 
 if (place_meeting(x+hsp,y,wallObject)) {

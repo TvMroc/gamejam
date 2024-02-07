@@ -34,11 +34,15 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"ladderObject","path":"objects/ladderObject/ladderObject.yy",},},
     {"id":{"name":"wall","path":"sprites/wall/wall.yy",},},
+    {"id":{"name":"ladder","path":"sprites/ladder/ladder.yy",},},
     {"id":{"name":"playerObject","path":"objects/playerObject/playerObject.yy",},},
+    {"id":{"name":"wall2Object","path":"objects/wall2Object/wall2Object.yy",},},
     {"id":{"name":"wallObject","path":"objects/wallObject/wallObject.yy",},},
     {"id":{"name":"Player","path":"sprites/Player/Player.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
+    {"id":{"name":"wall2","path":"sprites/wall2/wall2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
