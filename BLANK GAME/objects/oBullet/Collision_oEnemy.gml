@@ -2,7 +2,7 @@ with (other)
 {
 	hp--;
 	flash = 3;
-	hitstop = other.direction;
+	hitfrom = other.direction;
 }
 
 instance_destroy();
