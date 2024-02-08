@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ladderObject",
+  "name": "oLadder",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "ladder",
-    "path": "sprites/ladder/ladder.yy",
+    "name": "sLadder",
+    "path": "sprites/sLadder/sLadder.yy",
   },
   "spriteMaskId": null,
   "visible": true,

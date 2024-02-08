@@ -6,13 +6,24 @@ key_jump = keyboard_check(vk_space);
 
 var move = key_right - key_left;
 
-hsp = move * walkSpeed;
+hsp = move * walkSpeed*run;
 
 vsp = vsp + grv;
 
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
-	vsp = -7;
+	vsp = -5*run;
+}
+if (place_meeting(x, y,oLadder)) && (key_jump) {
+		vsp = -2*run;
+} 
+if (place_meeting(x, y,oLadder)) && (!key_jump) {
+	vsp = 1.6*run;	
+}
+if (keyboard_check(vk_control)) {
+	run = 1.3;
+} else {
+	run = 1;	
 }
 
 if (place_meeting(x+hsp,y,oWall)) 
