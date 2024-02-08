@@ -37,7 +37,6 @@
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},},
     {"id":{"name":"sMaountain","path":"sprites/sMaountain/sMaountain.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
-    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
