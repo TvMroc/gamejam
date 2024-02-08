@@ -20,6 +20,8 @@
     {"name":"oGun","order":2,"path":"objects/oGun/oGun.yy",},
     {"name":"sMaountain","order":4,"path":"sprites/sMaountain/sMaountain.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
+    {"name":"Sprite5","order":17,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"Sprite8","order":18,"path":"sprites/Sprite8/Sprite8.yy",},
     {"name":"sEnemy","order":6,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"oDead","order":6,"path":"objects/oDead/oDead.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
