@@ -54,6 +54,8 @@
     {"id":{"name":"sBoom","path":"sprites/sBoom/sBoom.yy",},},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},},
+    {"id":{"name":"ladderObject","path":"objects/ladderObject/ladderObject.yy",},},
+    {"id":{"name":"ladder","path":"sprites/ladder/ladder.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

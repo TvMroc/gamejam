@@ -34,5 +34,7 @@
     {"name":"oCamera","order":4,"path":"objects/oCamera/oCamera.yy",},
     {"name":"sBoom","order":5,"path":"sprites/sBoom/sBoom.yy",},
     {"name":"sGun","order":2,"path":"sprites/sGun/sGun.yy",},
+    {"name":"ladderObject","order":3,"path":"objects/ladderObject/ladderObject.yy",},
+    {"name":"ladder","order":3,"path":"sprites/ladder/ladder.yy",},
   ],
 }
