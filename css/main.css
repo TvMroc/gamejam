@@ -7,6 +7,10 @@
 }
 body{
     background-color: rgb(6, 6, 125);
+    background-image:url(/images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 .row {
     width: 100%;
@@ -19,19 +23,16 @@ body{
 .left-space{
     width: 33%;
     height: 100px;
-    background-color: rgb(3, 3, 79);
     
 }
 .mid-space {
     width: 34%;
     height: 100px;
-    background-color: rgb(3, 3, 79);
 
 }
 .right-space {
     width: 33%;
     height: 100px;
-    background-color: rgb(3, 3, 79);
 }
 .Items{
     margin-top: 12px;
@@ -39,6 +40,8 @@ body{
     color: black;
     gap: 20px;
     padding: 10px 15px;
+    font-weight: 600;
+    font-size: 25px;
 }
 .home-buttons {
     height: 100%;
@@ -82,7 +85,9 @@ body{
     align-items: center;
 }
 .text {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 600;
+
 }
 .container{
     height: 600px;
@@ -145,4 +150,36 @@ body{
     border-radius: 20px;
     background-color: black;
     color: white;
+}
+.img1 {
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+}
+.row13 {
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.left-space13 {
+    height: 650px;
+    width: 860px;
+}
+.mid-space13 {
+    width: 655px;
+    height: 650px;
+}
+.name-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-top: 200px;
+    font-weight: 500;
+}.imgL{
+    height: 200px;
+    width: 800px;
+    margin-left: 350px;
 }
