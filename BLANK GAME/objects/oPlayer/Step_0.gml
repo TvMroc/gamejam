@@ -1,7 +1,7 @@
 if(hascontrol)
 {
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"))
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"))
+key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_jump = keyboard_check(vk_space);
 }
 else
@@ -56,6 +56,8 @@ if (place_meeting(x,y+vsp,oWall))
 }
 
 y = y + vsp;
+
+
 
 //if(!place_meeting(x,y+1,oWall))
 //{
