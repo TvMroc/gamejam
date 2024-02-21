@@ -32,6 +32,7 @@
     {"name":"TileSet1","order":16,"path":"tilesets/TileSet1/TileSet1.yy",},
     {"name":"oLevelEnd","order":11,"path":"objects/oLevelEnd/oLevelEnd.yy",},
     {"name":"oMenu","order":7,"path":"objects/oMenu/oMenu.yy",},
+    {"name":"sPlayer","order":19,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sEnemyD","order":8,"path":"sprites/sEnemyD/sEnemyD.yy",},
     {"name":"oEnemy","order":5,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"sGun","order":15,"path":"sprites/sGun/sGun.yy",},
@@ -46,5 +47,6 @@
     {"name":"sBoom","order":5,"path":"sprites/sBoom/sBoom.yy",},
     {"name":"oLadder","order":2,"path":"objects/oLadder/oLadder.yy",},
     {"name":"sLadder","order":3,"path":"sprites/sLadder/sLadder.yy",},
+    {"name":"sPlayerA","order":20,"path":"sprites/sPlayerA/sPlayerA.yy",},
   ],
 }
