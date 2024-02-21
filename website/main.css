@@ -7,7 +7,7 @@
 }
 body{
     background-color: rgb(77, 77, 82);
-    background-image:url(./images/school-achtergrond.jpg);
+    background-image:url(../images/school-achtergrond.jpg);
     background-size: cover;
     background-attachment: fixed;
 
@@ -265,7 +265,7 @@ body{
     width: 450px;
     height: 600px;
     border-radius: 15px;
-    background: url(./images/achterkant\ trui.jpg);
+    background: url(../images/achterkant\ trui.jpg);
     animation: slider 10s infinite;
 }
 .trui{
@@ -274,46 +274,46 @@ body{
 }
 @keyframes slider{
     50%{
-        background: url(./images/beanie.jpg);
+        background: url(../images/beanie.jpg);
     }
     100%{
-        background: url(./images/achterkant\ trui.jpg);
+        background: url(../images/achterkant\ trui.jpg);
     }
 }
 .sliders {
     width: 450px;
     height: 600px;
     border-radius: 15px;
-    background: url(./images/mug.jpg);
+    background: url(../images/mug.jpg);
     animation: sliders 15s infinite;
 }
 @keyframes sliders{
     50%{
-        background: url(./images/shirt.jpg);
+        background: url(../images/shirt.jpg);
     }
     100%{
-        background: url(./images/mug.jpg);
+        background: url(../images/mug.jpg);
     }
 }
 .slide {
     width: 353px;
     height: 600px;
     border-radius: 15px;
-    background: url(./images/achterkant\ trui.jpg);
+    background: url(../images/achterkant\ trui.jpg);
     animation: slide 15s infinite;
 }
 @keyframes slide{
     25%{
-        background: url(./images/beanie\ 2.jpg);
+        background: url(../images/beanie\ 2.jpg);
     }
     50%{
-        background: url(./images/mug.jpg);
+        background: url(../images/mug.jpg);
     }
     75%{
-        background: url(./images/shirt2.jpg);
+        background: url(../images/shirt2.jpg);
     }
     100%{
-        background: url(./images/achterkant\ trui2.jpg);
+        background: url(../images/achterkant\ trui2.jpg);
     }
 }
 .box:hover{
