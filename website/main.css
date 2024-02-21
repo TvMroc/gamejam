@@ -125,6 +125,23 @@ body::-webkit-scrollbar {
     margin-right: auto;
     transition: 1s;
  }
+ .container4{
+    height: 800px;
+    width: 1500px;
+    flex-direction: column;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 236px;
+    font-family:sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+ }
 .box{
     height: 600px;
     width: 1300px;
