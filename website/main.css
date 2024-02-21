@@ -215,11 +215,10 @@ body{
     width: 160px;
     margin: 0 15px;
     border-radius: 15px;
-    border: 1px solid rgb(213, 12, 12);
 }
 .pic20 {
-    height: 40px;
-    width: 40px;
+    height: 200px;
+    width: 160px;
 }
 .all-buttons {
     width: 1140px;
@@ -285,15 +284,15 @@ body{
     width: 450px;
     height: 600px;
     border-radius: 15px;
-    background: url(/images/school-achtergrond.jpg);
+    background: url(/images/mug.jpg);
     animation: sliders 15s infinite;
 }
 @keyframes sliders{
     50%{
-        background: url(/images/studio\,logo.png);
+        background: url(/images/shirt.jpg);
     }
     100%{
-        background: url(/images/school-achtergrond.jpg);
+        background: url(/images/mug.jpg);
     }
 }
 .slide {
@@ -304,8 +303,14 @@ body{
     animation: slide 15s infinite;
 }
 @keyframes slide{
-    50%{
+    25%{
         background: url(/images/beanie\ 2.jpg);
+    }
+    50%{
+        background: url(/images/mug.jpg);
+    }
+    75%{
+        background: url(/images/shirt2.jpg);
     }
     100%{
         background: url(/images/achterkant\ trui2.jpg);
