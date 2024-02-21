@@ -37,7 +37,6 @@
     {"name":"sGun","order":15,"path":"sprites/sGun/sGun.yy",},
     {"name":"sGun1","order":16,"path":"sprites/sGun1/sGun1.yy",},
     {"name":"rMenu","order":1,"path":"rooms/rMenu/rMenu.yy",},
-    {"name":"sPlayerA","order":9,"path":"sprites/sPlayerA/sPlayerA.yy",},
     {"name":"oGunPickup","order":13,"path":"objects/oGunPickup/oGunPickup.yy",},
     {"name":"sSign","order":18,"path":"sprites/sSign/sSign.yy",},
     {"name":"oBullet","order":3,"path":"objects/oBullet/oBullet.yy",},
