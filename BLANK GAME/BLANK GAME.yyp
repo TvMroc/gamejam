@@ -35,6 +35,8 @@
   },
   "resources": [
     {"id":{"name":"spr_inv_box_16x16","path":"sprites/spr_inv_box_16x16/spr_inv_box_16x16.yy",},},
+    {"id":{"name":"sPickup","path":"scripts/sPickup/sPickup.yy",},},
+    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
     {"id":{"name":"oItem","path":"objects/oItem/oItem.yy",},},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},},
     {"id":{"name":"sMaountain","path":"sprites/sMaountain/sMaountain.yy",},},
@@ -42,6 +44,7 @@
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
+    {"id":{"name":"sDrop","path":"scripts/sDrop/sDrop.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"spr_items_all","path":"sprites/spr_items_all/spr_items_all.yy",},},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},},

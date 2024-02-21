@@ -28,10 +28,7 @@ maxInvSlots = 6;
 
 for (var inv = 0; inv < maxInvSlots; inv++) {
 	a_inv[inv] = -1; 
-	
-	roll = irandom(1);
-	
-	if (roll == 1) a_inv[inv] = irandom(sprite_get_number(spr_items_all) -1);
-	
 }
+selectedItem = 0;
+holdingGun = false;
 #endregion
