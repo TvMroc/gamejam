@@ -39,11 +39,15 @@ body::-webkit-scrollbar {
 .Items{
     margin-top: 12px;
     text-decoration: none;
-    color: black;
     gap: 20px;
     padding: 10px 15px;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 25px;
+    -webkit-text-stroke: 2px red;
+    color: rgb(8, 2, 1);
+}
+.items  :hover {
+    color: rgb(73, 71, 71);
 }
 .home-buttons {
     height: 100%;
@@ -59,11 +63,17 @@ body::-webkit-scrollbar {
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+.home  :hover {
+    color: rgb(73, 71, 71);
+}
 .learn {
     font-size: 20px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
+}
+.learn  :hover {
+    color: rgb(73, 71, 71);
 }
 .about {
     font-size: 20px;
@@ -71,11 +81,17 @@ body::-webkit-scrollbar {
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+.about  :hover {
+    color: rgb(73, 71, 71);
+}
 .contact {
     font-size: 20px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
+}
+.contact  :hover {
+    color: rgb(73, 71, 71);
 }
 .row1 {
     width: 100%;
@@ -296,7 +312,7 @@ body::-webkit-scrollbar {
 }
 @keyframes sliders{
     50%{
-        background: url(../images/shirt.jpg);
+        background: url(../images/shirt.png);
     }
     100%{
         background: url(../images/mug.jpg);
@@ -317,7 +333,7 @@ body::-webkit-scrollbar {
         background: url(../images/mug.jpg);
     }
     75%{
-        background: url(../images/shirt2.jpg);
+        background: url(../images/shirt2.png);
     }
     100%{
         background: url(../images/achterkant\ trui2.jpg);
