@@ -28,6 +28,7 @@
     {"name":"oTransition","order":10,"path":"objects/oTransition/oTransition.yy",},
     {"name":"sTrigger","order":11,"path":"sprites/sTrigger/sTrigger.yy",},
     {"name":"oDead","order":6,"path":"objects/oDead/oDead.yy",},
+    {"name":"obj_game","order":14,"path":"objects/obj_game/obj_game.yy",},
     {"name":"sBullets","order":3,"path":"sprites/sBullets/sBullets.yy",},
     {"name":"TileSet1","order":16,"path":"tilesets/TileSet1/TileSet1.yy",},
     {"name":"oLevelEnd","order":11,"path":"objects/oLevelEnd/oLevelEnd.yy",},
