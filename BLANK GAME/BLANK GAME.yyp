@@ -37,6 +37,7 @@
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},},
     {"id":{"name":"sMaountain","path":"sprites/sMaountain/sMaountain.yy",},},
+    {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},},
@@ -56,8 +57,11 @@
     {"id":{"name":"sEnemyD","path":"sprites/sEnemyD/sEnemyD.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},},
+    {"id":{"name":"sGun1","path":"sprites/sGun1/sGun1.yy",},},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},},
+    {"id":{"name":"oGunPickup","path":"objects/oGunPickup/oGunPickup.yy",},},
+    {"id":{"name":"sSign","path":"sprites/sSign/sSign.yy",},},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},},
     {"id":{"name":"sMap","path":"sprites/sMap/sMap.yy",},},
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},},
@@ -71,6 +75,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
+    {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
