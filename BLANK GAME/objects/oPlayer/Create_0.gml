@@ -3,3 +3,4 @@ vsp = 0;
 grv = 0.3;
 walkSpeed = 2.5;
 run = 1;
+hascontrol = true;
