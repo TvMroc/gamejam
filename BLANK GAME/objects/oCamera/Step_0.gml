@@ -4,7 +4,6 @@ if (instance_exists(follow))
 	yTo = follow.y;
 }
 
-
 x += (xTo - x) / 15;
 y += (yTo - y) / 15;
 

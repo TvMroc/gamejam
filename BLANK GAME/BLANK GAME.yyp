@@ -54,6 +54,7 @@
     {"id":{"name":"sBullets","path":"sprites/sBullets/sBullets.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
+
     {"id":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},},
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},},
     {"id":{"name":"sEnemyD","path":"sprites/sEnemyD/sEnemyD.yy",},},

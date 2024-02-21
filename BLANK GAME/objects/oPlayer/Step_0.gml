@@ -12,7 +12,6 @@ else
 }
 
 
-
 var move = key_right - key_left;
 
 hsp = move * walkSpeed*run;
@@ -56,8 +55,6 @@ if (place_meeting(x,y+vsp,oWall))
 }
 
 y = y + vsp;
-
-
 
 if(!place_meeting(x,y+1,oWall))
 {
