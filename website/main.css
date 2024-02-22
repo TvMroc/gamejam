@@ -10,6 +10,8 @@ body{
     background-image:url(../images/school-achtergrond.jpg);
     background-size: cover;
     background-attachment: fixed;
+    animation: load 1s;
+    transition: margin-top 0.6s;
 }
 body::-webkit-scrollbar {
     display: hidden;
@@ -354,6 +356,16 @@ body::-webkit-scrollbar {
     }
     100%{
         background: url(../images/achterkant\ trui2.jpg);
+    }
+}
+@keyframes load {
+    from {
+        margin-bottom: 2000px;
+        margin-top: -2000px;
+    }
+    to {
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
 }
 .box:hover{
