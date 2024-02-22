@@ -75,3 +75,42 @@ else
 		}	
 }	
 if(hsp != 0) image_xscale = sign(hsp);
+
+
+x1 = x+sprite_width/6;
+y1 = y+sprite_height;
+x2 = x-sprite_width*2;
+y2 = y-10;
+if (collision_rectangle(x1, y1, x2, y2, oItem, false, false)) {
+	itemInstanceId = (collision_rectangle(x1, y1, x2, y2, oItem, false, false));
+	item = itemInstanceId.image_index;
+	sPickup(item, itemInstanceId);
+}
+if keyboard_check(ord(1)){
+	selectedItem = 0;
+}
+if keyboard_check(ord(2)) {
+	selectedItem = 1;
+}
+if keyboard_check(ord(3)) {
+	selectedItem = 2;
+}
+if keyboard_check(ord(4)) {
+	selectedItem = 3;
+}
+if keyboard_check(ord(5)) {
+	selectedItem = 4;
+}
+if keyboard_check(ord(6)) {
+	selectedItem = 5;
+}
+if (a_inv[selectedItem] == 0) {
+	holdingGun = true
+} else {
+	holdingGun = false;	
+}
+
+if keyboard_check(vk_backspace) {
+	item = a_inv[selectedItem];
+	sDrop(item);	
+}
