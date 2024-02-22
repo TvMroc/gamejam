@@ -1,3 +1,4 @@
+if (oPlayer.holdingGun) {
 x = oPlayer.x;
 y = oPlayer.y;
 
@@ -30,6 +31,10 @@ if (image_angle >90) && (image_angle <270)
 else
 {
 	image_yscale = 1;
+}
+} else {
+	x = 4000;
+	y = 4000;
 }
 	
 
