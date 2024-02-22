@@ -404,6 +404,7 @@ body::-webkit-scrollbar {
 .video-container{
     width: 1500px;
     height: 700px;
+    color: white;
 }
 .video-wrapper iframe{
     width: 100%;
