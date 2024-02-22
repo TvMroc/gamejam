@@ -32,3 +32,4 @@ for (var inv = 0; inv < maxInvSlots; inv++) {
 selectedItem = 0;
 holdingGun = false;
 #endregion
+hascontrol = true;
