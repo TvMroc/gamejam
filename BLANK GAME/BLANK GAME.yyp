@@ -76,9 +76,9 @@
     {"id":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
     {"roomId":{"name":"rThree","path":"rooms/rThree/rThree.yy",},},
-    {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
   ],
   "templateType": "game",
